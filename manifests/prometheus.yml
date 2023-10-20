@@ -87,6 +87,8 @@ instance_groups:
     networks:
       - name: default
     jobs:
+      - name: bpm
+        release: bpm
       - name: grafana
         release: prometheus
         properties:
@@ -168,10 +170,14 @@ stemcells:
 
 releases:
 - name: postgres
-  version: "43"
-  url: https://bosh.io/d/github.com/cloudfoundry/postgres-release?v=43
-  sha1: e44bbe8f8a7cdde1cda67b202e399a239d104db6
+  version: "44"
+  url: https://bosh.io/d/github.com/cloudfoundry/postgres-release?v=44
+  sha1: 582b1de9522077102dfa44ff7164cd8f499dbfc8
 - name: prometheus
-  version: 27.0.0
-  url: https://github.com/bosh-prometheus/prometheus-boshrelease/releases/download/v27.0.0/prometheus-27.0.0.tgz
-  sha1: e72e06ed0888f837bd0b25aac7b3cc2685304452
+  version: 29.5.0
+  url: https://github.com/bosh-prometheus/prometheus-boshrelease/releases/download/v29.5.0/prometheus-29.5.0.tgz
+  sha1: cc98d0cd93b14014741af9c2acfa5ecf6e46a2c3
+- name: bpm
+  version: 1.1.21
+  url: https://bosh.io/d/github.com/cloudfoundry/bpm-release?v=1.1.21
+  sha1: e8abe19ec186962828de843f8f281cddb6141904

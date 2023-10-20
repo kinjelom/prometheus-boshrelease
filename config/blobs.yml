@@ -1,51 +1,55 @@
-alertmanager/alertmanager-0.23.0.linux-amd64.tar.gz:
-  size: 25115445
-  object_id: 0f343151-dbd9-450a-4c97-57e5523900bb
-  sha: sha256:77793c4d9bb92be98f7525f8bc50cb8adb8c5de2e944d5500e90ab13918771fc
-blackbox_exporter/blackbox_exporter-0.19.0.linux-amd64.tar.gz:
-  size: 8881739
-  object_id: 50469191-5d8a-46bc-5443-2dc31f6b7040
-  sha: sha256:af2ae1394c4f9b46962ac1510e1dacac78115c11e625991fb6c54825d2240896
-bosh_exporter/bosh_exporter-3.3.0.linux-amd64.tar.gz:
-  size: 7951925
-  object_id: 1cb948b8-aa67-4af5-75f0-bfdf6fb2dc8f
-  sha: sha256:7a998ab28b8c4b2ba075f72a580d608a346478fe9b64725ea767997bd7a6f916
+alertmanager/alertmanager-0.26.0.linux-amd64.tar.gz:
+  size: 29717412
+  object_id: 7d58e85b-a7ae-4477-5308-b30592e99d8a
+  sha: sha256:abd73e2ee6bf67d3888699660abbecba7b076bf1f9459a3a8999d493b149ffa6
+blackbox_exporter/blackbox_exporter-0.24.0.linux-amd64.tar.gz:
+  size: 10956196
+  object_id: ea5adfb7-e1af-4f1b-5625-b2f7708818df
+  sha: sha256:81b36cece040491ac0d9995db2a0964c40e24838a03a151c3333a7dc3eef94ff
+bosh_exporter/bosh_exporter-3.6.0.linux-amd64.tar.gz:
+  size: 4527871
+  object_id: e2a6dc5f-d574-4f68-6ec2-0740849358ec
+  sha: sha256:d735216b5d2753be71d00cc15de350eec3925dfbd1633575e62576df27452454
 bosh_tsdb_exporter/bosh_tsdb_exporter-0.2.0.linux-amd64.tar.gz:
   size: 3517628
   object_id: 803f9cdf-4cc8-4dcf-4be4-1811ae11a6c8
   sha: a76c831d007b2097fe47a3bb2db7ed249d122c79
-cadvisor/cadvisor-0.37.0.tar.gz:
-  size: 16905721
-  object_id: 9d353079-a632-4033-4c98-eda68a05eb93
-  sha: sha256:07e2f631fb99d058d7d783d457fdb3039c4dbd49a87b2be64143849031b89fe2
-cf_exporter/cf_exporter-0.10.1.linux-amd64.tar.gz:
-  size: 7345936
-  object_id: d6639464-cc47-4a19-6e24-8533e8094184
-  sha: sha256:f161c1410e40e2912b55aa80d252fd08fb839282c1f20a9a4f0a812ff7cc5a43
+cadvisor/cadvisor-v0.47.0-linux-amd64:
+  size: 44642706
+  object_id: 92e9dea2-22f4-4284-510a-a5697dc25328
+  sha: sha256:caf4491298e0702f9d0c6a1d1949767f5c6400f77e12cd3524d6d3fcc66abc2a
+cf_exporter/cf_exporter_1.2.1.linux-amd64.tar.gz:
+  size: 6935627
+  object_id: b482ff28-a49b-442f-5c82-130bd405110a
+  sha: sha256:ec3ef0eb41922a9ef89bd4f1533e043ab288e5d25da26ff8cce78b9b5f1adb26
 collectd_exporter/collectd_exporter-0.5.0.linux-amd64.tar.gz:
   size: 7253249
   object_id: 6584fd01-47ea-4cd2-75de-cf191caaa33f
   sha: sha256:5b906b1ea49c119024350c10b4b8491857a20336a0ffd778a3f10d7536a6d123
-consul_exporter/consul_exporter-0.8.0.linux-amd64.tar.gz:
-  size: 8022136
-  object_id: 16a9c165-88d2-4ba3-7387-051d82c5de20
-  sha: sha256:1457e50356ae28e510d4ac927a916938bf61ac87026facc20289f868518b36af
-credhub_exporter/credhub_exporter_0.5.1_linux_amd64.tar.gz:
-  size: 3819917
-  object_id: e54eff36-f67d-4845-6a73-8ede351d8682
-  sha: sha256:8555a47fccc189bbc88cea749ff9c6562ca126683850453e72e387972e74cb74
-elasticsearch_exporter/elasticsearch_exporter-1.3.0.linux-amd64.tar.gz:
-  size: 3637393
-  object_id: c29896ef-a405-4811-5733-2c81f018a5a9
-  sha: sha256:793f0bd6e119b69e7e049b1143789a98e575d21e401b9322bbd0c9db5607c2dd
+consul_exporter/consul_exporter-0.9.0.linux-amd64.tar.gz:
+  size: 8799847
+  object_id: ae47c543-ad44-499a-6478-d976c4d1aae5
+  sha: sha256:918bbbfaec650a9a1159edc663c7b09d6477cd96c078edef6d9fe608ece3c4ff
+credhub_exporter/credhub_exporter_0.28.0_linux_amd64.tar.gz:
+  size: 4169073
+  object_id: de60574a-4006-4b2c-7a47-8bfb334a748d
+  sha: sha256:10e24a9bfc1e6eca4d3b4232240959532afa1b040741dae6e4fd8c779da64caa
+elasticsearch_exporter/elasticsearch_exporter-1.6.0.linux-amd64.tar.gz:
+  size: 4935152
+  object_id: 2d9694e8-b806-4cf8-61b1-68cf1bc9b6bc
+  sha: sha256:ce16d7ba4e1e87895ea5881dc6a242d9fbd9ccfd68c217248c88d8dcd519cc35
 firehose_exporter/firehose_exporter-6.2.0.linux-amd64.tar.gz:
   size: 9102454
   object_id: 065e08b0-0023-46ba-4955-ee5daf5e40f0
   sha: sha256:6f81a643a158a578c7e8b08e3fc06044ba957806d87c33d58955c1142cd54d8f
-fontconfig/fontconfig-2.13.92.tar.gz:
-  size: 2127384
-  object_id: 2ff7a520-f3dd-487f-6af0-e7a7a8f758f3
-  sha: sha256:3406a05b83a42231e3df68d02bc0a0cf47b3f2e8f11c8ede62267daf5f130016
+firehose_exporter/firehose_exporter_7.1.1.linux-amd64.tar.gz:
+  size: 4654573
+  object_id: f91f872a-78d3-45f3-7c86-1e84cdcfd93b
+  sha: sha256:31edcd299bed1208336a1511561a50e9189d824b3c13e31dba69b5eaf049ba17
+fontconfig/fontconfig-2.14.2.tar.xz:
+  size: 1440844
+  object_id: 7656fb30-b5c6-45ac-4d2c-48ccdca1cfbd
+  sha: sha256:dba695b57bce15023d2ceedef82062c2b925e51f5d4cc4aef736cf13f60a468b
 freefont/freefont-otf-20120503.tar.gz:
   size: 4487813
   object_id: 8b483c1c-d553-48b3-500a-12c192782f73
@@ -58,30 +62,26 @@ gperf/gperf-3.1.tar.gz:
   size: 1215925
   object_id: 65d1b23c-97f5-4555-719a-9c4c8cc1904f
   sha: e3c0618c2d2e5586eda9498c867d5e4858a3b0e2
-grafana/grafana-7.5.15.linux-amd64.tar.gz:
-  size: 52222968
-  object_id: 57caa046-633f-4f9a-411e-585ed4b302de
-  sha: sha256:1b69502ddfc491a5ce284f4ea198d94feed787df18d575ff7f292eabac5837cf
-grafana_plugins/flant-statusmap-panel-v0.4.2.zip:
-  size: 286169
-  object_id: 010ca6fc-4f4c-4d26-7663-3c73555c112b
-  sha: sha256:c1673d40021d2f4a857a19cc7c8933f9d509cb4fb7ffc095a7242dc157baf819
-grafana_plugins/grafana-clock-panel-v1.1.1.zip:
-  size: 621739
-  object_id: 9536cd55-c7d9-4f68-56a8-ab4b3f966eba
-  sha: sha256:4af67283bafe5c6ea2ee3a98c31a4f9fa67325ceea9ad7cfb72a61629a544439
-grafana_plugins/grafana-piechart-panel-v1.6.1.zip:
-  size: 274360
-  object_id: 1b54b9da-4c31-45af-50d5-2c94c1ced745
-  sha: sha256:eb82bf79fa012ae045a7c270efd85374cc93bab4d9b0bd2a7e03c37145b3da38
+grafana/grafana-9.5.9.linux-amd64.tar.gz:
+  size: 86693423
+  object_id: 3fafc6ff-d087-47d0-5f36-e97dea5a54c8
+  sha: sha256:49f411cf232b229fc345fdb1532a79b33ad3f4ea0467bfa348ebf2e842d5e913
+grafana_plugins/flant-statusmap-panel-0.5.1.zip:
+  size: 289519
+  object_id: 1c011a4e-29fb-4081-4c58-947735d9bb9f
+  sha: sha256:6841f3687f70711673766646aca3a2bb2d28a8e2e6336370329c90d917beb5a9
+grafana_plugins/grafana-clock-panel-2.1.3.zip:
+  size: 476818
+  object_id: d1fb0e6d-3cec-4135-4ff1-025d820dcdf6
+  sha: sha256:4f9585399630bf8da4262f1553a16387136c4044273a7448b2eaa743466bb681
 grafana_plugins/grafana-worldmap-panel-v0.3.2.zip:
   size: 2681129
   object_id: 48b520b3-8b0a-4b7c-46dd-cd5656914928
   sha: sha256:306009cd2f57f75c7ac2ddf4e631f57212e85b7cddee92180f04673e0f6aae01
-grafana_plugins/jdbranham-diagram-panel-v1.7.1.zip:
-  size: 17352318
-  object_id: 946d44a3-bc5f-494a-6246-a765899b3924
-  sha: sha256:b4060059e31f02a015a177c17b71d4e3c6f7dfa3576a2f720e284ce026149ccc
+grafana_plugins/jdbranham-diagram-panel-1.7.3.zip:
+  size: 3749121
+  object_id: 63689dcf-b8fe-46b4-6dc9-d4d3ee052678
+  sha: sha256:e79848168bdf4ac542088943fed756072fa5af25e8c7ba2b6d08de6de015a268
 grafana_plugins/mtanda-histogram-panel-v0.1.6.zip:
   size: 76062
   object_id: 52255f76-001d-4401-514b-d1ce42b82eb3
@@ -90,18 +90,18 @@ grafana_plugins/vonage-status-panel-v1.0.10.zip:
   size: 401708
   object_id: 1d94c564-ce22-461d-6689-3d2a728fdc55
   sha: sha256:1d3ffa533def063f077415cb775bbd54ad4bd1b9f5bfe7e62250635b77dc5589
-graphite_exporter/graphite_exporter-0.12.0.linux-amd64.tar.gz:
-  size: 13499440
-  object_id: ff961cb7-8fb6-4a7b-7cd8-77a55435b1f2
-  sha: sha256:8e4866a7e602a8941ec8aa788cf3066cfa948b6e29e2ee1fae86979fca568bff
-haproxy_exporter/haproxy_exporter-0.13.0.linux-amd64.tar.gz:
-  size: 7359219
-  object_id: 4ce12a3a-0eb5-4668-444e-066e657fdefd
-  sha: sha256:f3ae4f6f84a1194c6361a2f994ff267eb75d5aeb2e2d5cb37c42ff246a47e64b
-influxdb_exporter/influxdb_exporter-0.8.1.linux-amd64.tar.gz:
-  size: 6193789
-  object_id: cfd5f74e-d331-4170-58e9-b35436ceaa4e
-  sha: sha256:3490fe22bc7f9f08e5c1feaa33ec2ce59bfb0601ae903ebed237a8530e058c5a
+graphite_exporter/graphite_exporter-0.14.0.linux-amd64.tar.gz:
+  size: 14649913
+  object_id: c92a36c6-c7f4-4537-59f0-8831d65f3c1d
+  sha: sha256:3d214e97473cf12b85a9c4a652dc316d0300e0518d6e469d20a40b2112c8ba02
+haproxy_exporter/haproxy_exporter-0.15.0.linux-amd64.tar.gz:
+  size: 8197764
+  object_id: 3c1ec2f4-e971-4012-627b-f0ba993b35c5
+  sha: sha256:ac200872b734e2f9c0211997f7f9c0ca5ad6522996c37aed39a732d5f3c0de16
+influxdb_exporter/influxdb_exporter-0.11.4.linux-amd64.tar.gz:
+  size: 7011310
+  object_id: 229e1d8c-a6bd-42bc-4faa-9d63b6e27295
+  sha: sha256:e796b9351135f51de4bb4e15658f01c26aa9016e86fd7ee85eee6b0786c3dfb9
 ingestor_exporter/ingestor_exporter-2.2.0.linux-amd64.tar.gz:
   size: 5924704
   object_id: a0ce369b-0024-4b67-75ea-2bb51551d9b7
@@ -110,75 +110,75 @@ jq/jq-1.6.linux64:
   size: 3953824
   object_id: 04453e77-c1dd-40ad-49a8-54dedf95d8bf
   sha: 056ba5d6bbc617c29d37158ce11fd5a443093949
-libxml2/libxml2-2.9.10.tar.gz:
-  size: 5624761
-  object_id: 03abdd76-bc8b-4884-7912-9b9f83462d1c
-  sha: sha256:aafee193ffb8fe0c82d4afef6ef91972cbaf5feea100edc2f262750611b4be1f
-memcached_exporter/memcached_exporter-0.9.0.linux-amd64.tar.gz:
-  size: 6716963
-  object_id: a2473bfe-1700-4df6-4442-449f211e801e
-  sha: sha256:831c59a131ca6229feff900ddb08e4337c1adaee5e91e2d6545b77166e4469a5
+libxml2/libxml2-2.11.0.tar.xz:
+  size: 2617968
+  object_id: 0a3bc78d-7958-4c64-613d-d9d376cde373
+  sha: sha256:b1a2fca3f7722d6c35a4f24974a1b5800e4d84ec5cb756bc61ef2b8c75a19e36
+memcached_exporter/memcached_exporter-0.13.0.linux-amd64.tar.gz:
+  size: 7740455
+  object_id: 7cc66717-b29f-4820-4a76-f2977730be6e
+  sha: sha256:ba6a218a36ce121fdcfd403ceb4874d1943903aa5aaa664ada3b953bad3b9f1c
 mongodb_exporter/mongodb_exporter-1.0.0.linux-amd64.tar.gz:
   size: 2873863
   object_id: 7d6b44a6-b6a3-4900-9671-979d984c2665
   sha: 073286f537e06dea8980a36818206b237e031d20
-mysqld_exporter/mysqld_exporter-0.13.0.linux-amd64.tar.gz:
-  size: 7242382
-  object_id: c30cd778-d326-4078-7dd7-1772f7073ca0
-  sha: sha256:626584c5d1c0cf09982302763e69db24fabe5dc736e7b694a3f8fdfee3d8d9a2
+mysqld_exporter/mysqld_exporter-0.14.0.linux-amd64.tar.gz:
+  size: 7450991
+  object_id: 1daa0fd1-e981-49e5-5cc6-37ccd04602d6
+  sha: sha256:c17402137a4e9745f593127f162c1003298910cb8aa7d05bee3384738de094ae
 nats_exporter/nats_exporter-1.0.0.linux_amd64.tar.gz:
   size: 2492944
   object_id: f549cec1-4dab-413b-b5b0-183f18b90f7f
   sha: 8c3ce30c2a8d67d0f951bc3039a0b5c1a54cd536
-nginx/nginx-1.21.6.tar.gz:
-  size: 1073364
-  object_id: 6deae91f-99fe-4b45-68b0-3f5acc434e6c
-  sha: sha256:66dc7081488811e9f925719e34d1b4504c2801c81dee2920e5452a86b11405ae
+nginx/nginx-1.24.0.tar.gz:
+  size: 1112471
+  object_id: e7229568-cbb0-47ad-70ff-712c001a47ca
+  sha: sha256:77a2541637b92a621e3ee76776c8b7b40cf6d707e69ba53a940283e30ff2f55d
 nginx/pcre-8.45.tar.gz:
   size: 2096552
   object_id: 07d80377-8e45-4f83-7d5b-47c2df280efb
   sha: sha256:4e6ce03e0336e8b4a3d6c2b70b1c5e18590a5673a98186da90d4f33c23defc09
-postgres_exporter/postgres_exporter-0.10.0.linux-amd64.tar.gz:
-  size: 7285638
-  object_id: 0dafd93f-fe75-4e97-794a-f7b6baa10e66
-  sha: sha256:1d1a008c5e29673b404a9ce119b7516fa59974aeda2f47d4a0446d102abce8a1
+postgres_exporter/postgres_exporter-0.13.2.linux-amd64.tar.gz:
+  size: 8572595
+  object_id: 5772af79-93aa-4702-59ca-112d87b804fe
+  sha: sha256:33f820116a1c0cfc0a069d237036e05c142d216976b6fcb7c11df5abf5a537f8
 prometheus/prometheus-1.8.2.linux-amd64.tar.gz:
   size: 17748716
   object_id: 54fd8c7b-a676-44cd-64b2-d5788552e607
   sha: 33101ac86a6376680c3b44b63db47f1754d77a1a
-prometheus/prometheus-2.33.3.linux-amd64.tar.gz:
-  size: 75819309
-  object_id: 26a5d67a-d36c-40b5-4c22-f75c79f0939f
-  sha: sha256:0e4ebcb1b3282f329cefa7dea88fb5819733dc69bf553b8c2fbf8d031174e8a4
-pushgateway/pushgateway-1.4.2.linux-amd64.tar.gz:
-  size: 9189846
-  object_id: 094dc721-15a5-40fa-664a-0c5b10da48e0
-  sha: sha256:d41df97d93a7564bf8207a8884452eb220d2124d3853682c879907c96b525a6f
+prometheus/prometheus-2.47.0.linux-amd64.tar.gz:
+  size: 95721304
+  object_id: c3b93229-2dc7-43f6-5c2f-d8ebedb20389
+  sha: sha256:277ad9f110ded8e326bc885848952941e839fa38dd3237e36415f0fa35a04424
+pushgateway/pushgateway-1.6.1.linux-amd64.tar.gz:
+  size: 10237002
+  object_id: b8b3396f-206e-4c46-79df-acc6017e0dc4
+  sha: sha256:5b927120aa89db035e6b0a1f1d292b5852e78a989d09834097cd460ff26ca67b
 rabbitmq_exporter/rabbitmq_exporter-0.29.0.linux-amd64.tar.gz:
   size: 3604790
   object_id: 0034971e-2cbd-4fd1-638b-b990b36b08fa
   sha: fa1d46a83ecc094d0bddcf3d593008617eba5d18
-redis_exporter/redis_exporter-v1.35.1.linux-amd64.tar.gz:
-  size: 3235737
-  object_id: 6fed2539-9c93-4129-66e1-eebd8ff2120c
-  sha: sha256:0b4eaaa85d0887f5ebc7c44cd8d67485298ede19f1537a81f4f94eed2f75701b
+redis_exporter/redis_exporter-v1.54.0.linux-amd64.tar.gz:
+  size: 3575697
+  object_id: 39855922-6e06-42b7-6a6f-5d4c8a385ca1
+  sha: sha256:8a88b63eb780fe0d2a22fc6d963b6337ef2f122d1e8fae92b962fcab41092574
 shield_exporter/shield_exporter-0.3.0.linux-amd64.tar.gz:
   size: 3696892
   object_id: 479e7d54-3fc6-4822-53bf-0e16b57e45a9
   sha: 6f1f98f54e15212f3405309f52b7666770fc15e3
-stackdriver_exporter/stackdriver_exporter-0.12.0.linux-amd64.tar.gz:
-  size: 8685045
-  object_id: 80e4df9a-7bc1-43bb-52de-35a74ef60266
-  sha: sha256:de4e3f5b9ce39517ca9172011e3e3561ac34e1716947c357c4c720296f67b994
-statsd_exporter/statsd_exporter-0.22.4.linux-amd64.tar.gz:
-  size: 6932548
-  object_id: e488d52b-f82d-48ea-76f2-8607e57ab0e0
-  sha: sha256:54863c75eb4c7928568244251df2d988e88c335835cb19c76648bb4fc1a4af26
-util-linux/util-linux-2.36.1.tar.gz:
-  size: 11151380
-  object_id: d148dc5e-357e-4f06-4261-c6cc5cc27d57
-  sha: sha256:37de03dbb98cdeffdf9e754122b0aca2a9bbdc19769f6570dfcb6f123643bf53
-vault_exporter/vault_exporter_0.1.2_linux_amd64.tar.gz:
-  size: 3809657
-  object_id: b57907a1-69f8-4e62-6708-e0e632b8ec32
-  sha: 4c6e2770de08eedf96b33e9fde508d60c07aafe8
+stackdriver_exporter/stackdriver_exporter-0.14.1.linux-amd64.tar.gz:
+  size: 10741899
+  object_id: c92a8f07-ad47-46b2-7362-51820927430a
+  sha: sha256:5967cbcec8de9ad29088b3ec67f141b17ea7c098186a4f563c78a2de73876c2d
+statsd_exporter/statsd_exporter-0.24.0.linux-amd64.tar.gz:
+  size: 7898529
+  object_id: 3d29a800-d0a6-4c7d-46a3-778d44f114fc
+  sha: sha256:49c84b454dc6ff8f828ff0b9615e8e09455db679e6d1193546a9610a207c3e35
+util-linux/util-linux-2.38.1.tar.xz:
+  size: 7495904
+  object_id: 5cf63a34-123f-422f-5a62-0e2b64254471
+  sha: sha256:60492a19b44e6cf9a3ddff68325b333b8b52b6c59ce3ebd6a0ecaa4c5117e84f
+vault_exporter/vault_exporter_0.1.3_linux_amd64.tar.gz:
+  size: 3773592
+  object_id: 75bd13c6-4452-447a-6847-9f82599ef36d
+  sha: sha256:26d0f36233270bb0ede98da94c2cdad09180cbadd7ee4ae3205961d13e9b7c55

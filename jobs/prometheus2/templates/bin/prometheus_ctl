@@ -120,6 +120,9 @@ case $1 in
       <% if p('prometheus.web.enable_admin_api') %> \
       --web.enable-admin-api \
       <% end %> \
+      <% if p('prometheus.web.enable_remote_write_receiver') %> \
+      --web.enable-remote-write-receiver \
+      <% end %> \
       <% if_p('prometheus.web.external_url') do |external_url| %> \
       --web.external-url="<%= external_url %>" \
       <% end %> \
@@ -138,6 +141,9 @@ case $1 in
       <% end %> \
       <% if_p('prometheus.web.user_assets') do |user_assets| %> \
       --web.user-assets="<%= user_assets %>" \
+      <% end %> \
+      <% p('prometheus.enable_features', []).each do |enable_feature| %> \
+      --enable-feature="<%= enable_feature %>" \
       <% end %> \
       >>  ${LOG_DIR}/prometheus.stdout.log \
       2>> ${LOG_DIR}/prometheus.stderr.log

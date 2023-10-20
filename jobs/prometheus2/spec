@@ -58,6 +58,9 @@ properties:
     description: "Remote write storage configuration"
   prometheus.remote_read:
     description: "Remote read storage configuration"
+  prometheus.enable_features:
+    description: "List of features to enable"
+    default: []
 
   prometheus.alertmanager.notification_queue_capacity:
     description: "The capacity of the queue for pending alert manager notifications"
@@ -119,6 +122,9 @@ properties:
     default: false
   prometheus.web.enable_admin_api:
     description: "Enables API endpoints for admin control actions"
+    default: false
+  prometheus.web.enable_remote_write_receiver:
+    description: "Enables the built-in remote write receiver"
     default: false
   prometheus.web.external_url:
     description: "The URL under which Prometheus is externally reachable"
